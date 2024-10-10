@@ -24,7 +24,7 @@ const Home = () => {
     }
   ]
   return (
-    <div className = 'h-screen bg-slate-900 text-slate-100 flex items-center flex-col'>
+    <div className = 'min-h-screen bg-slate-900 text-slate-100 flex items-center flex-col'>
       <div className = 'my-6 max-w-xs'>
       <h2 className = ' px-10 text-center scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
         Flexible pricing for teams of all sizes
@@ -34,7 +34,7 @@ const Home = () => {
         <button className = 'px-4 py-2 bg-teal-700 rounded-md'>MONTHLY</button>
         <button className = 'px-4 py-2 rounded-md'>ANNUALLY</button>
       </div>
-        <div className = 'flex gap-8 flex-wrap'>
+        <div className = 'flex gap-8 flex-wrap justify-center items-center'>
         {
           cards.map((item, i) => (
           <div className = 'cards mt-8 rounded-3xl border border-teal-700 p-3' key = {i}>
