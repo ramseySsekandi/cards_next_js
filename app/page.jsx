@@ -1,4 +1,4 @@
-import Button from '@/components/button'
+import Button from '@/components/Button'
 import { CircleCheck } from 'lucide-react'
 import React from 'react'
 
