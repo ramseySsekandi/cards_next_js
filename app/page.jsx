@@ -34,7 +34,7 @@ const Home = () => {
         <button className = 'px-4 py-2 bg-teal-700 rounded-md'>MONTHLY</button>
         <button className = 'px-4 py-2 rounded-md'>ANNUALLY</button>
       </div>
-        <div className = 'flex gap-8'>
+        <div className = 'flex gap-8 flex-wrap'>
         {
           cards.map((item, i) => (
           <div className = 'cards mt-8 rounded-3xl border border-teal-700 p-3' key = {i}>
