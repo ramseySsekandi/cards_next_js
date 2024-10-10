@@ -24,8 +24,8 @@ const Home = () => {
     }
   ]
   return (
-    <div className = 'min-h-screen bg-slate-900 text-slate-100 flex items-center flex-col pb-4'>
-      <div className = 'my-6 max-w-xs'>
+    <div className = 'min-h-screen bg-slate-900 text-slate-100 flex items-center flex-col'>
+      <div className = 'my-6 max-w-xs pb-4'>
       <h2 className = ' px-10 text-center scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
         Flexible pricing for teams of all sizes
       </h2>
